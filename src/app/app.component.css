@@ -1,0 +1,102 @@
+*{
+    padding:0;
+   margin: auto;
+   background:lavender;
+
+}
+body {
+    height: 100%;
+    min-width:340px;
+    margin:auto;
+    top:50px;
+    left: 0;
+    right: 0;
+    padding: 30px 0;
+    border-radius: 8px;
+}
+
+#newtask-div{
+    position: relative;
+   padding:30px 20px ;
+   border-radius: 5px;
+   height: 100%;
+   box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+   margin:10px 6px 6px 10px ;
+   line-height: 24px;
+}
+#newtask-div h1{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+#newtask-div input {
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    padding:12px ;
+    border-radius:5px ;
+    border: 2px solid #000;
+    font-weight: 500;
+    position: relative;
+}
+#newtask-div input:focus{
+border: 2px solid #180594;
+
+}
+#newtask-div #addButton{
+    position: relative;
+    float: right;
+    width: 80px;
+    height: 45px;
+    border-radius: 3px;
+background: #180594;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    padding-left:10px ;
+    padding-right:10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+}
+#removeButton{
+    position: relative;
+   
+    width: 80px;
+    height: 45px;
+    border-radius: 3px;
+background: #a82544;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    padding-left:10px ;
+    padding-right:10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px 6px 6px 10px ;
+}
+#removetask-div{
+    position: relative;
+    padding:30px 20px ;
+    border-radius: 5px;
+    height: 100%;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    margin:10px 6px 6px 10px ;
+    line-height: 24px;
+ } 
+
+ul{
+    color:#000 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+li{
+    list-style-type:square;
+margin-left: 20px;}
+@media screen {
+    
+}
